@@ -1,0 +1,31 @@
+.StoreProduct{
+    width: 25vw;
+    height: 40vh;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: -1px 4px 20px -6px  rgba(0,0,0, 0.75);
+}
+
+.StoreProduct>img{
+    height: 150px;
+    max-width: 250px;
+}
+
+.storeProduct__title{
+    width: 100%;
+    font-size: 20px;
+}
+.storeProduct__price{
+    width: 100%;
+}
+
+.storeProduct__button{
+    width: 80%;
+    
+}

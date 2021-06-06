@@ -1,0 +1,144 @@
+
+
+.pageContentMain{
+    position: relative;
+    background: url(pagecontent.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 60vh;
+    object-fit: contain;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.pageContentMainComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30vh;
+    top: 26%;
+    font-size: 50px;
+    font-weight: 700;
+    /* background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6; */
+}
+
+.pageContentbuttonAssemble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding:10px;
+    font-size: 18px;
+    width: 200px;
+    margin: 15px;
+    font-weight: 600;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;  
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.pageContentAboutus{
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-bottom: 2px solid lightgreen;
+}
+
+.pageContentImage{
+    width: 40%;
+}
+
+.pageContentImage > img{
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+}
+
+.pageContentaboutContent{
+    width: 40%;
+    margin-top: 40px;
+
+}
+
+.pageContentServices{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: left;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.pageContentServicesLAbel{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin: auto;
+}
+
+.pageContentServicesComponent{
+    width: 45%;
+    background-color: white;
+    height: 150px;
+    box-shadow: -1px 4px 20px -6px  rgba(0,0,0, 0.75);
+    margin-bottom: 20px;
+}
+
+.pageContentServicesComponent:hover{
+    box-shadow: -1px 8px 40px -6px  rgba(0,0,0, 0.75);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.pageContentServicesComponent{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageContentContactUs{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: rgb(4, 27, 26);
+    color: white;
+}
+
+.pageContentContactUsComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pageContentContactUsSubComponent{
+    /* border: 1px solid white; */
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,21 @@
+.Mainheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    position: sticky;
+}
+
+.MainheaderComponent{
+    margin: 10px 20px 10px 20px; 
+    display: flex;
+}
+
+.MainheadersubComponent{
+    margin-right: 20px;
+    cursor: pointer;
+}

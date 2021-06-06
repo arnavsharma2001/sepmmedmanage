@@ -1,0 +1,55 @@
+.Addproduct{
+    margin: 50px;
+}
+
+.AddproductCompnent1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+}
+
+.Addproductsubcomponent{
+    width: 80%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageupload{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayImage > img{
+    height: 150px;
+    object-fit: contain;
+}
+
+.addproduct1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddproductCompnent2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageupload{
+    height: 100%;
+}
+
+.displayImage{
+    height: 80%;
+}
+
+.AddButton{
+    margin-top: 40px;
+}
